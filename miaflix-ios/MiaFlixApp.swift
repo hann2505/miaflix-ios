@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             Tab(Constants.home, systemImage: Constants.homeIconString) {
-                
+                HomeView()
             }
             Tab(Constants.search, systemImage: Constants.searchIconString) {
                 

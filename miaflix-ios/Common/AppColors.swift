@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct AppColors {
-    enum PrimaryBlue {
+    enum Primary {
         static let c60 = Color(hex: 0x377DF1)
         static let c50 = Color(hex: 0x2D65C2)
         static let c40 = Color(hex: 0x244E94)
