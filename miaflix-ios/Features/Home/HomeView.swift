@@ -11,7 +11,9 @@ struct HomeView: View {
     var body: some View {
         VStack(spacing: 0) {
             AppHeader {
-                Text("Miaflix").appTypography(.h1(.semibold))
+                Text("Miaflix")
+                    .appTypography(.h1(.semibold))
+                    .foregroundStyle(AppColors.inversePrimary)
             } trailing: {
                 Button {
                     // action
@@ -25,6 +27,7 @@ struct HomeView: View {
                 // Home content
             }
         }
+        .appBackground(.color(AppColors.background))
     }
 }
 
